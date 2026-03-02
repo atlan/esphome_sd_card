@@ -3,8 +3,8 @@
 #ifdef USE_ESP_IDF
 #include "math.h"
 #include "esphome/core/log.h"
-#include "vfs/include/esp_vfs.h"
-#include "fatfs/vfs/esp_vfs_fat.h"
+#include "esphome/components/vfs/include/esp_vfs.h"
+#include "esphome/components/fatfs/vfs/esp_vfs_fat.h"
 #include "sdmmc_cmd.h"
 #include "driver/sdmmc_host.h"
 #include "driver/sdmmc_types.h"
